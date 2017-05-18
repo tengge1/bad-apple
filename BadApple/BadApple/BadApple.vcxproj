@@ -22,9 +22,7 @@
     <ClCompile Include="BADAPPLE.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="BADAPPLE.txt" />
-  </ItemGroup>
-  <ItemGroup>
+    <None Include="BADAPPLE.data" />
     <None Include="BADAPPLE.wma" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -51,7 +49,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v140</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>

@@ -113,7 +113,7 @@ err:
 #endif
 
 
-#define DATAFILE "BADAPPLE.txt"
+#define DATAFILE "BADAPPLE.data"
 
 #define FRAME_WIDTH		80
 #define FRAME_HEIGHT	32

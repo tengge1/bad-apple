@@ -20,12 +20,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="BADAPPLE.txt">
-      <Filter>资源文件</Filter>
-    </Text>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="BADAPPLE.wma">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="BADAPPLE.data">
       <Filter>资源文件</Filter>
     </None>
   </ItemGroup>
